@@ -3,7 +3,7 @@
  * Auth: Annie
  */
 
-#include "holberton.h"
+#include "mainn.h"
 
 /**
  * _islower - Checks if a character is lowercase.
@@ -18,3 +18,4 @@ int _islower(int c)
 	else
 		return (0);
 }
+
