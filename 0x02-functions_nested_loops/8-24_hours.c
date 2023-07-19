@@ -3,7 +3,7 @@
  * Auth: Annie
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  *  - Prints every minute of the day of Jack Bauer
