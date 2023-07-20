@@ -1,7 +1,3 @@
-/**
- *file main.h
- *Auth: Annie
- */
 #include "main.h"
 
 /**
