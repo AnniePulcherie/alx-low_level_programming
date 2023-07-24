@@ -1,6 +1,6 @@
 /*
  * File: 4-print_rev.c
- * Auth: Annie Pulcherie
+ * Auth: Annie
  */
 
 #include "main.h"
@@ -16,8 +16,8 @@ void print_rev(char *s)
 	while (s[index++])
 		len++;
 
-	for (index = len - 1; index >= 0;
-	     _putchar(s[index]);
+	for (index = len - 1; index >= 0; index--)
+		_putchar(s[index]);
 
 	_putchar('\n');
 }
