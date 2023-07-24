@@ -1,0 +1,1 @@
+learn pointer and array
