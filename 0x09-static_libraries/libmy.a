@@ -1,2 +1,0 @@
-#!/bin/bash
-ar rcs libmy.a _putchar.o _islower.o _isalpha.o _abs.o _isupper.o _isdigit.o _strlen.o _puts.o
