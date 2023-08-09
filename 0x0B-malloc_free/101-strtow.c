@@ -3,7 +3,7 @@
  * Auth: Annie
  */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 int word_len(char *str);
