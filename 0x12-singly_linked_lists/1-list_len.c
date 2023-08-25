@@ -5,18 +5,18 @@
 #include "lists.h"
 
 /**
- *
+ * list_len 
  * Return: The number of elements in h.
  */
 size_t list_len(const list_t *h)
 {
-	size_t element = 0;
+	size_t elements = 0;
 
 	while (h)
 	{
-		element++;
+		elements++;
 		h = h->next;
 	}
 
-	return (element);
+	return (elements);
 }
