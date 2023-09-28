@@ -1,9 +1,9 @@
 /*
- * Auth :Annie
+ * Auth: Annie
  * File: 0-binary_to_uint.c
  */
 
-#include "main.h"
+#include "holberton.h"
 
 /**
  * binary_to_uint - Converts a binary number to an unsigned int.
@@ -15,7 +15,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num = 0, mult = 1;
-	int len strlen(b);
+	int len;
 
 	if (b == '\0')
 		return (0);
